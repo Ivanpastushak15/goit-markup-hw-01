@@ -1,0 +1,334 @@
+body {
+    height: 2349px;
+    width: 1600px;
+    left: -800px;
+    top: -1175px;
+    border-radius: 0px;
+    
+}
+
+/* Верхнаяя линия */
+.header{
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1); 
+    text-decoration: none;
+}
+
+.header-color{
+    color:rgba(33, 150, 243, 1) ;
+    text-decoration: none;
+}
+.header-color-2{
+    color: rgba(0, 0, 0, 1); 
+    text-decoration: none;
+}
+.header-color-3:hover{
+   color:rgba(33, 150, 243, 1);
+
+
+
+}
+.header-color-3{
+    color:rgba(117, 117, 117, 1) ;
+    text-decoration: none;
+}
+.header-2{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+ text-decoration: none;
+}
+
+
+
+/* Шапка */
+.way-0{
+    background-color:rgba(47, 48, 58, 1) ;
+}
+.way{
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    
+
+
+
+}
+.button-0:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: rgb(26, 145, 241);
+    cursor: pointer;
+}
+.button-0{
+    height: 50px;
+    width: 200px;
+    left: 700px;
+    top: 430px;
+    border-radius: 4px;
+    background-color: rgba(24, 140, 232, 1);
+    color: aliceblue;
+    border-radius: 4px;
+    
+}
+
+
+
+/* Особенности */
+.osobennosti-zaglaviya{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    
+
+
+}
+.osobennosti-zaglaviya-2{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+
+
+}
+.osobennosti-opisaniye{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color:rgba(117, 117, 117, 1) ;
+
+}
+/* Чем мы занимаемся */
+
+
+.chem-my-zanimayemsya{
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+/* Наша команда */
+.nasha-komanda-0{
+    background-color:rgba(245, 244, 250, 1) ;
+}
+
+
+
+.nasha-komanda{
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.nasha-komanda-imena{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.03em;   
+}
+.nasha-komanda-professiya{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: rgba(117, 117, 117, 1);
+}
+/* Подвал */
+.footer-0{
+background-color:rgba(47, 48, 58, 1) ;
+}
+.footer-1{
+    color: rgba(255, 255, 255, 1);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+.address{
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    
+
+    
+    
+    
+}
+.address-color{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    
+    
+}
+
+.address-color-1{
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+
+}
+
+
+
+/* Портфолио */
+/* Верхнаяя линия */
+.header-11{
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+.header-color-11{
+    color:rgba(33, 150, 243, 1) ;
+}
+.header-color-22{
+    color: rgba(0, 0, 0, 1); 
+} 
+
+.header-color-33:hover{
+    color:rgba(33, 150, 243, 1);
+
+
+}
+.header-color-33{
+    color:rgba(117, 117, 117, 1) ;
+}
+
+
+.header-22{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+/* Портфолио */
+/* Кнопка */
+.button-1:hover{
+    background-color: rgba(24, 140, 232, 1);
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+.button-1{
+    height: 38px;
+    width: 128px;
+    left: 576px;
+    top: 174px;
+    border-radius: 4px;
+
+
+}
+/* Проекти */ 
+
+.projects-work-1{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    
+    
+}
+
+.proekti-opisaniye-1{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    
+    color:rgba(117, 117, 117, 1) ;
+    }
+
+    /* Подвал */
+    .footer-00{
+        background-color:rgba(47, 48, 58, 1) ;
+        }
+        .footer-12{
+        color: rgba(255, 255, 255, 1);
+        font-family: Raleway;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-decoration: none;
+        }
+
+    .address-color-22,ul {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        list-style-type: none;
+        
+        
+        
+    }
+    .address-color-2{
+        color: rgba(255, 255, 255, 1);
+        text-decoration: none;
+        
+    
+
+
+    }
+    
+    .address-color-3{
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+        
+    }
+
+    
+    
+
+
+
+
+
+
