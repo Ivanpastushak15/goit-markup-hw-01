@@ -1,8 +1,22 @@
+
+:root{
+    --robot-font :'Roboto',sans-serif;
+    --raleway-font : 'Raleway',sans-serif;
+    --text-title : rgba(33, 150, 243, 1);
+    --text-title2 :rgba(0, 0, 0, 1);
+    --text-title3 :rgba(255, 255, 255, 1);
+    --color-bag :rgba(245, 245, 245, 1);
+    --color-bag2 :rgba(47, 48, 58, 1);
+    --color-bag3 :rgba(245, 244, 250, 1);
+    --color-hover :rgba(33, 150, 243, 1) ;
+    --text-color :rgba(117, 117, 117, 1) ;
+}
+
 body {
-    font-family:'Roboto';
+    font-family: var(--robot-font);
     font-size: 14px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-align: left;
     
@@ -12,13 +26,13 @@ body {
 
 /* Верхнаяя линия */
 .header{
-    font-family:'Raleway';
+    font-family:var(--raleway-font);
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: left;
-    color: rgba(0, 0, 0, 1); 
+    color: var(--text-title2); 
     text-decoration: none;
 }
 .header-2{
@@ -29,7 +43,7 @@ body {
 }
 
 .header-color{
-    color:rgba(33, 150, 243, 1) ;
+    color:var(--text-title) ;
     text-decoration: none;
 }
 
@@ -38,17 +52,17 @@ body {
     text-decoration: none;
 }
 .header-color-2:hover{
-    color:rgba(33, 150, 243, 1) ;
+    color:var(--color-hover);
 }
 
 .header-color-3:hover{
-    color:rgba(33, 150, 243, 1);
+    color:var(--color-hover);
 
 
 
 }
 .header-color-3{
-    color:rgba(117, 117, 117, 1) ;
+    color:var(--text-color);
     text-decoration: none;
 }
 
@@ -57,12 +71,12 @@ body {
 
 /* Шапка */
 .way-0{
-    background-color:rgba(47, 48, 58, 1) ;
+    background-color:var(--color-bag2) ;
 }
 .way{
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
     color: rgba(255, 255, 255, 1);
@@ -77,15 +91,15 @@ body {
     cursor: pointer;
 }
 .button{
-    font-family:'Roboto';
+    font-family:var(--robot-font);
     height: 50px;
     width: 200px;
-    left: 700px;
-    top: 430px;
+    font-weight: 700;
     border-radius: 4px;
     background-color:rgba(33, 150, 243, 1) ;
     color: rgba(255, 255, 255, 1);
     font-size: 16px;
+    
 }
 
 
@@ -93,10 +107,10 @@ body {
 /* Особенности */
 
 .osobennosti-zaglaviya-2{
-    font-family: 'Roboto';
+    font-family: var(--robot-font);
     font-size: 14px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-align: left;
     text-transform: uppercase ;
@@ -104,14 +118,13 @@ body {
 }
 
 .osobennosti-opisaniye{
-    font-family: 'Roboto';
+    font-family: var(--robot-font);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
-    
-color:rgba(117, 117, 117, 1) ;
+    color:var(--text-color)
 
 }
 /* Чем мы занимаемся */
@@ -119,42 +132,43 @@ color:rgba(117, 117, 117, 1) ;
 
 .chem-my-zanimayemsya{
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 }
 /* Наша команда */
+
 .nasha-komanda-0{
-    background-color:rgba(245, 244, 250, 1) ;
+    background-color: var(--color-bag3) ;
 }
+
 
 
 
 .nasha-komanda{
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 }
 .nasha-komanda-imena{
 font-weight: 500;
-line-height: 19px;
+line-height: 1.18;
 font-size: 16px;   
 }
 .nasha-komanda-professiya{
 font-weight: 400;
-line-height: 19px;
+line-height: 1.18;
 font-size: 16px;
-
-color: rgba(117, 117, 117, 1);
+    color: var(--text-color)
 }
 /* Подвал */
 .footer-0{
-background-color:rgba(47, 48, 58, 1) ;
+background-color:var(--color-bag2);
 }
 .footer-1{
-    color: rgba(255, 255, 255, 1);
-    font-family: Raleway;
+    color: var(--text-title3);
+    font-family: var(--raleway-font);
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
 
 
 }
@@ -164,17 +178,17 @@ background-color:rgba(47, 48, 58, 1) ;
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.71;
     
     
 }
 
 .address-color-1{
-color: rgba(255, 255, 255, 0.6);
+color: rgba(172, 172, 176, 1);
 text-decoration: none;
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.71;
 }
 
 
@@ -182,41 +196,32 @@ line-height: 24px;
 /* Портфолио */
 /* Верхнаяя линия */
 .header-11{
-    font-family:'Raleway';
+    font-family:var(--raleway-font);
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: left;
     color: rgba(0, 0, 0, 1); 
     text-decoration: none;
 }
 .header-color-11{
-    color:rgba(33, 150, 243, 1) ;
+    color:var(--text-title) ;
 }
 .header-color-22{
     color: rgba(0, 0, 0, 1); 
 } 
 .header-color-22:hover{
-    color:rgba(33, 150, 243, 1) ;
+    color:var(--color-hover)
 }
 
 .header-color-33:hover{
-    color:rgba(33, 150, 243, 1);
+    color:var(--color-hover)
 
 
 }
 .header-color-33{
-    color:rgba(117, 117, 117, 1) ;
-}
-
-
-.header-22{
-    font-family:'roboto';
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: rgba(0, 0, 0, 1);
+    color:var(--text-color)
 }
 
 
@@ -224,10 +229,10 @@ line-height: 24px;
 /* Кнопка */
 
 .port-button{
-    font-style:'roboto';
+    font-style:var(--robot-font);
     font-size: 16px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.6;
     text-align: center;
     background-color: rgba(245, 244, 250, 1);
     
@@ -242,37 +247,32 @@ line-height: 24px;
 }
 /* Проекти */ 
 
-.projects-work-1{ 
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    text-align: left;
-    text-decoration: none;
-    
-    
-}
+.projects-work-1
+
 .projects-work-title{
     color:rgba(33, 33, 33, 1) ;
     text-decoration: none;
     font-size: 18px;
+    line-height: 2;
 }
 .proekti-opisaniye-1{
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.8;
     letter-spacing: 0.03em;
-    color:rgba(117, 117, 117, 1) ;
+    color:var(--text-color)
     }
 
     /* Подвал */
     .footer-00{
-        background-color:rgba(47, 48, 58, 1) ;
+        background-color:var(--color-bag2);
         }
         .footer-12{
-        color: rgba(255, 255, 255, 1);
-        font-family: Raleway;
+        color: var(--text-title3);
+        font-family: var(--raleway-font);
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
         letter-spacing: 0.03em;
         text-align: left;
         text-decoration: none;
@@ -302,7 +302,7 @@ line-height: 24px;
     }
     
     .address-color-3{
-        color: rgba(255, 255, 255, 0.6);
+        color:rgba(172, 172, 176, 1) ;
         text-decoration: none;
         font-size: 14px;
         font-weight: 400;
