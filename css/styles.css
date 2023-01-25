@@ -2,16 +2,17 @@
 :root{
     --robot-font :'Roboto',sans-serif;
     --raleway-font : 'Raleway',sans-serif;
-    --text-title : rgba(33, 150, 243, 1);
+    --text-title : rgba(77, 90, 229, 1);
     --text-title2 :rgba(0, 0, 0, 1);
     --text-title3 :rgba(255, 255, 255, 1);
     --color-bag :rgba(245, 245, 245, 1);
     --color-bag2 :rgba(47, 48, 58, 1);
     --color-bag3 :rgba(245, 244, 250, 1);
-    --color-hover :rgba(33, 150, 243, 1) ;
+    --color-hover :rgba(77, 90, 229, 1) ;
     --text-color :rgba(117, 117, 117, 1) ;
-    --focus-color :rgba(24, 140, 232, 1) ;
+    --focus-color : rgba(77, 90, 229, 1);
 }
+
 
 
 body {
@@ -25,6 +26,42 @@ body {
     
     
 }
+/* reset start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p 
+
+.img {
+display: block;
+
+}
+
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* reset end */
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding:0 15px ;
+
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
 
 /* Верхнаяя линия */
 .header{
@@ -36,22 +73,41 @@ body {
     text-align: left;
     color: var(--text-title2); 
     text-decoration: none;
+    margin-right: 93px;
 }
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
 .header-2{
     font-weight: 500;
     letter-spacing: 0.02em;
     text-align: left;
     text-decoration: none;
+    display: flex;
+    
 }
+.header-color-0{
+    display: flex;
+
+}   
 
 .header-color{
     color:var(--text-title) ;
     text-decoration: none;
+    
+}
+.header-color-01{
+    color:var(--text-title) ;
+    text-decoration: none;
+    margin-right: 50px;
 }
 
 .header-color-2{
     color: rgba(0, 0, 0, 1); 
     text-decoration: none;
+    margin-right: 50px;
 }
 .header-color-2:hover{
     color:var(--color-hover);
@@ -69,9 +125,19 @@ body {
 .header-color-3:focus{
     color:var(--focus-color);
 }
+.header-color-03{
+    display: flex;
+    
+}
 .header-color-3{
     color:var(--text-color);
     text-decoration: none;
+    margin-right: 50px;
+}
+.header-color-4{
+    color:var(--text-color);
+    text-decoration: none;
+    
 }
 
 
@@ -80,6 +146,9 @@ body {
 /* Шапка */
 .way-0{
     background-color:var(--color-bag2) ;
+    width: 1600px;
+    height: 600px;
+    top: 80px;
 }
 .way{
     font-size: 44px;
@@ -89,14 +158,12 @@ body {
     text-align: center;
     color: rgba(255, 255, 255, 1);
     text-transform:uppercase ;
-
-
-
+    padding: 200px 452px;
 }
 
 .button:hover{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    background-color:rgba(33, 150, 243, 1) ;
+    background-color:rgba(77, 90, 229, 1) ;
     cursor: pointer;
 }
 .button:focus{
@@ -109,10 +176,9 @@ body {
     width: 200px;
     font-weight: 700;
     border-radius: 4px;
-    background-color:rgba(33, 150, 243, 1) ;
+    background-color: rgba(77, 90, 229, 1);
     color: rgba(255, 255, 255, 1);
     font-size: 16px;
-    
 }
 
 
@@ -140,6 +206,12 @@ body {
     color:var(--text-color)
 
 }
+.osobennosti-opisaniye-2{
+    font-family: var(--robot-font);
+    color:rgba(217, 217, 217, 1);
+
+}
+
 /* Чем мы занимаемся */
 
 
@@ -256,16 +328,17 @@ line-height: 1.71;
     line-height: 1.6;
     text-align: center;
     background-color: rgba(245, 244, 250, 1);
-    
+    border-radius: 4px;
+    color:rgba(77, 90, 229, 1);
 }
 .port-button:hover{
-    background-color: rgba(24, 140, 232, 1);
+    background-color: rgba(77, 90, 229, 1);
     color: aliceblue;
     cursor: pointer;
 }
 .port-button:focus{
-color:rgba(255, 255, 255, 1);
-background-color:rgba(33, 150, 243, 1) ;
+color:aliceblue;
+background-color:rgba(64, 75, 191, 1);
 }
 .port-button{
     font-family: inherit;
