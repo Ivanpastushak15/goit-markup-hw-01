@@ -168,7 +168,7 @@ display: block;
 }
 .button:focus{
     color: rgba(255, 255, 255, 1);
-    background-color: rgba(24, 140, 232, 1);
+    background-color: rgba(64, 75, 191, 1);
 }
 .button{
     font-family:var(--robot-font);
