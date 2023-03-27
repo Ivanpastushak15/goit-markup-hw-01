@@ -12,115 +12,121 @@
   <link rel="stylesheet" href="./css/styles.css" />
   <title lang="en">Home Work</title>
 </head>
-
 <body>
-  <header>
-    <!-- Верхнаяя линия -->
-    <a class="header-11" href="index.html" style="text-decoration: none;"><span
-        class="header-color-11">WEB</span>STUDIO</a>
-    <div>
-      <nav>
-        <ul style="list-style-type: none;">
-          <li>
-            <a class="header-color-22" href="index.html" style="text-decoration: none;">Studio</a>
-          </li>
-          <li>
-            <a class="header-color-11" href="portfolio.html" style="text-decoration: none;">Portfolio</a>
-          </li>
-          <li>
-            <a class="header-color-22" href="#contacts-2" style="text-decoration: none;">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <ul>
-        <li><a class="header-color-33" href="tel:+11(000)1111111" style="text-decoration: none;">+11 (000) 111 11 11</a>
+  <!-- header -->
+  <header class="header">
+    <div class="conteiner header-conteiner">
+    <nav class="navigation">
+      <a href="./index.html" class="header-logo link"
+        >Web<span class="header-studio">Studio</span></a
+      >
+      <ul class="header-list list">
+        <li class="header-item">
+          <a href="./index.html" class="header-link link">Studio</a>
         </li>
-        <li><a class="header-color-33" href="info@devstudio.com" style="text-decoration: none;">info@devstudio.com</a>
+        <li class="header-item">
+          <a href="./portfolio.html" class="header-link link">Portfolio</a>
+        </li>
+        <li class="header-item"><a href="" class="header-link link">Contacts</a></li>
+      </ul>
+    </nav>
+    <address class="address">
+      <ul class="address-list list">
+        <li class="address-links text">
+          <a href="mailto:info@devstudio.com" class="address-item link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="address-links text">
+          <a href="tel:+110001111111" class="address-item link"
+            >+11 (000) 111-11-11</a
+          >
         </li>
       </ul>
-    </div>
+    </address>
+  </div>
   </header>
-  <!-- Портфолио -->
-  <main>
-    <section>
-      <ul class="menu">
-        <li><button class="port-button" type="button">All</button></li>
-        <li><button class="port-button" type="button">Web Site</button></li>
-        <li><button class="port-button" type="button">App</button></li>
-        <li><button class="port-button" type="button">Design</button></li>
-        <li><button class="port-button" type="button">Marketing</button></li>
-      </ul>
-
-      <!-- Проекти -->
-      <section >
-        <ul class="flexbox-container-portfolio">
-          <li class="flexbox-element-portfolio">
-            <img src="img.2/img-7.jpg" alt="Banking App Interface Concept" width="360" />
-            <h3 class="projects-work-title">Banking App Interface Concept</h3>
-            <p class="proekti-opisaniye-1">App</p>
-          </li>
-
-          <li class="flexbox-element-portfolio">
-            <img src="img.2/img-8.jpg" alt="Cashless Payment" width="370" />
-            <h3 class="projects-work-title">Cashless Payment</h3>
-            <p class="proekti-opisaniye-1">Marketing</p>
-          </li>
-
-          <li class="flexbox-element-portfolio">
-            <img src="img.2/img-13.jpg" alt="Meditaion App" width="360" />
-            <h3 class="projects-work-title">Meditaion App</h3>
-            <p class="proekti-opisaniye-1">App</p>
-          </li>
-
-          <li class="flexbox-element-portfolio">
-            <img src="img.2/img-9.jpg" alt="Taxi Service" width="360" />
-            <h3 class="projects-work-title">Taxi Service</h3>
-            <p class="proekti-opisaniye-1">Marketing</p>
-          </li>
-
-          <li class="flexbox-element-portfolio">
-            <img src="img.2/img-14.jpg" alt="Screen Illustrations" width="360" />
-            <h3 class="projects-work-title">Screen Illustrations</h3>
-            <p class="proekti-opisaniye-1">Design</p>
-          </li>
-
-          <li class="flexbox-element-portfolio">
-            <img src="img.2/img-15.jpg" alt="Online Courses" width="360" />
-            <h3 class="projects-work-title">Online Courses</h3>
-            <p class="projects-1">Marketing</p>
-          </li>
-
-          <li class="flexbox-element-portfolio">
-            <img src="img.2/img-10.jpg" alt="Instagram Stories Concept" width="360" />
-            <h3 class="projects-work-title">Instagram Stories Concept</h3>
-            <p class="projects-1">Design</p>
-          </li>
-
-          <li class="flexbox-element-portfolio">
-            <img src="img.2/img-16.jpg" alt="Organic Food" width="360" />
-            <h3 class="projects-work-title">Organic Food</h3>
-            <p class="projects-1">Web Site</p>
-          </li>
-
-          <li class="flexbox-element-portfolio">
-            <img src="img.2/img-11.jpg" alt="Fresh Coffee" width="360" />
-            <h3 class="projects-work-title">Fresh Coffee</h3>
-            <p class="projects-1">Web Site</p>
-          </li>
-
+  <!-- main -->
+  <main class="main">
+    <!-- examples -->
+    
+    <section class="portfolio-main">
+      <div class="conteiner">
+        <h1 hidden>Example</h1>
+        <ul class="bottom-list list">
+          <li class="bottom-item"><button type="button" class="portfolio-button button">All</button></li>
+          <li class="bottom-item"><button type="button" class="portfolio-button button">Web Site</button></li>
+          <li class="bottom-item"><button type="button" class="portfolio-button button">App</button></li>
+          <li class="bottom-item"><button type="button" class="portfolio-button button">Design</button></li>
+          <li class="bottom-item"><button type="button"  class="portfolio-button button">Marketing</button></li>
         </ul>
-
-      </section>
-
-  </main>
-  <!--Подвал -->
-  <footer class="footer-00">
-    <a class="footer-12" href="index.html"><span class="header-color-11">WEB</span>STUDIO</a>
-    <div id="contacts-2">
-      <p class="osobennosti-opisaniye-2">Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.</p>
-    </div>
-  </footer>
-</body>
-
-</html>
+        <ul class="aps-list list">
+          <li class="aps-item">
+            <a href="" class="link"><img class="aps-img" src="img.2/img-7.jpg" alt="banck app" width="360">
+              <div class="apps-box"><h2 class="aps-title">Banking App Interface Concept</h2>
+              <p class="text">App</p></a></div>
+            </li>
+            <li class="aps-item">
+              <a href="" class="link"><img class="aps-img" src="img.2/img-8.jpg" alt="cashless payment"
+                width="360">
+                <div class="apps-box"><h2 class="aps-title">Cashless Payment</h2>
+                <p class="text">Marketing</p></a></div>
+              </li>
+              <li class="aps-item">
+                <a href="" class="link"><img class="aps-img" src="img.2/img-13.jpg" alt="meditation app" width="360">
+                  <div class="apps-box"><h2 class="aps-title">Meditation App</h2>
+                  <p class="text">App</p></a></div>
+                </li>
+                <li class="aps-item">
+          <a href="" class="link"><img class="aps-img" src="img.2/img-9.jpg" alt="taxi service" width="360">
+          <div class="apps-box"><h2 class="aps-title">Taxi Service</h2>
+          <p class="text">Marketing</p></a></div>
+        </li>
+        <li class="aps-item">
+          <a href="" class="link"><img class="aps-img" src="img.2/img-14.jpg" alt="screen
+            illustrations" width="360">
+            <div class="apps-box"><h2 class="aps-title">Screen Illustrations</h2>
+            <p class="text">Design</p></a></div>
+          </li>
+          <li class="aps-item">
+            <a href="" class="link"><img class="aps-img" src="img.2/img-15.jpg" alt="online courses" width="360">
+              <div class="apps-box"><h2 class="aps-title">Online Courses</h2>
+              <p class="text">Marketing</p></a></div>
+            </li>
+            <li class="aps-item">
+              <a href="" class="link"><img class="aps-img" src="img.2/img-10.jpg" alt="instagram
+                stories concept" width="360">
+                <div class="apps-box"><h2 class="aps-title">Instagram Stories Concept</h2>
+                <p class="text">Design</p></a></div>
+        </li>
+        <li class="aps-item">
+          <a href="" class="link"><img class="aps-img" src="img.2/img-16.jpg" alt="organic food" width="360">
+            <div class="apps-box"><h2 class="aps-title">Organic Food</h2>
+            <p class="text">Web Site</p></a></div>
+          </li>
+          <li class="aps-item">
+            <a href="" class="link"><img class="aps-img" src="img.2/img-11.jpg" alt="fresh coffee" width="360">
+              <div class="apps-box"><h2 class="aps-title">Fresh Coffee</h2>
+              <p class="text">Web Site</p></a></div>
+            </li>
+          </ul>
+        </div>
+        </section>
+      </main>
+      <!-- foooter -->
+      <footer class="footer">
+        <div class="conteiner">
+          <div class="footer-box ">
+        <a href="./index.html" class="footer-logo link"
+          >Web<span class="footter-studio">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with digital
+          marketing & growth solutions.
+        </p>
+      </div>
+      </footer>
+    </body>
+  </html>
+  
+  
