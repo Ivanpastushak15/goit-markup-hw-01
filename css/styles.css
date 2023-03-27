@@ -386,7 +386,7 @@ font-weight: 400;
   color: #ffffff;
   background-color: #404bbf;
 }
-/* APPS */
+
 .aps-list {
   display: flex;
   flex-wrap: wrap;
@@ -395,7 +395,7 @@ font-weight: 400;
   padding-right: 0;
   padding-bottom: 0;
 }
-.aps-img{
+.appsimg{
   display: block;
   width: 100%;
   height: auto;
